@@ -1,0 +1,15 @@
+{
+  "name": "Side Notes",
+  "description": "A simple extension for adding side notes to your websites",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+  "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
